@@ -16,7 +16,11 @@ info:
 
 servers:
   - url: http://localhost:6503/league
-    description: Local Docker Development
+    description: DIRECT -- Local Docker Development
+  - url: http://localhost/league
+    description: PROXY -- Local Docker Development
+  - url: http://localhost/api/league
+    description: PREFIX PROXY -- Local Docker Development
 
 paths:
   /healthz:
