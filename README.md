@@ -34,7 +34,9 @@ make clean
 ```
 
 The Leagueify league service is ready for development once the banner output is
-visible within the terminal. The banner blelow was created using the
+visible within the terminal. By default the Leagueify league service api docs
+are accessible at [http://localhost:6503/league/docs][service-url]. The banner
+below was created using the
 [Text to ASCII Art Generator by Patorjk][patorjk-taag].
 
 ```
@@ -58,3 +60,4 @@ leagueify-league-1  |
 [go-download]: https://go.dev/dl/
 [patorjk-taag]: https://patorjk.com/software/taag/#p=display&f=Kban&t=LEAGUEIFY%0ALEAGUE
 [repo-makefile]: ./Makefile
+[service-url]: http://localhost:6503/league/docs
